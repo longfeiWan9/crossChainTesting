@@ -11,7 +11,7 @@ function main(chain){
   if(chain == "A"){
     sendAssetCrossChain(
       url = "http://47.89.240.111:11332",
-      wif = "KwNTRPykwT4TS7TzN5ymqvUbGhUw5o6tEHART7wjNCVJhL3kNfqm",
+      wif = "KwNTRPykwT4****mqvUbGhUw5o6tEHART7wjNCVJhL3kNfqm",
       sourceProxy_Big = "0fb7010af58c2f9407915f182dc5430a0d131e4d",
       sourceAsset_Big = "96734f5efebd87986e1eb68c26b1526e297d91a5",
       toChainID = 5,
@@ -22,8 +22,8 @@ function main(chain){
   if(chain == "B"){
     sendAssetCrossChain(
       url = "http://47.88.50.171:21332",
-      wif = "Kwfntp3n9YRjveQYpQAosjJRQidsrGFcmjquF75tonL1zNSCFykj",
-      sourceProxy_Big = "94cca272725dfcab4eaa731615d10f9e58ad49c9",
+      wif = "Kwfntp3n9YR****osjJRQidsrGFcmjquF75tonL1zNSCFykj",
+      sourceProxy_Big = "d577b781d18bdb577018c430d7cbce03a8965698",
       sourceAsset_Big = "b09c34e301b131f4a9d4e6d0cd46ad8aaa767bd7",
       toChainID = 4,
       targetAddress = "AZPXxnzAMZ58uaETnSkaiiMtvQAwoySBM1",

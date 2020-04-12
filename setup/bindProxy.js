@@ -11,7 +11,7 @@ function main(chain){
   if(chain == "A"){
     bindNep5Proxy(
       url = "http://47.89.240.111:11332",
-      wif = "L5YuEAPtQL1VwoPqzBpqEPHpoFNHtK2U5TnHpdGVFm2MtoSuyp3f",
+      wif = "L5YuEAPtQL1****qEPHpoFNHtK2U5TnHpdGVFm2MtoSuyp3f",
       sourceProxy_Big = "0fb7010af58c2f9407915f182dc5430a0d131e4d",
       targetProxy_Big = "eecca272725dfcab4eaa731615d10f9e58ad49c9",
       toChainID = 11
@@ -20,7 +20,7 @@ function main(chain){
   if(chain == "B"){
     bindNep5Proxy(
       url = "http://47.88.50.171:21332",
-      wif = "L5YuEAPtQL1VwoPqzBpqEPHpoFNHtK2U5TnHpdGVFm2MtoSuyp3f",
+      wif = "L5YuEAPtQL1****qEPHpoFNHtK2U5TnHpdGVFm2MtoSuyp3f",
       sourceProxy_Big = "94cca272725dfcab4eaa731615d10f9e58ad49c9",
       targetProxy_Big = "0fb7010af58c2f9407915f182dc5430a0d1bbbcc",
       toChainID = 10

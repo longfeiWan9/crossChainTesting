@@ -4,7 +4,7 @@
     
     该文件夹下面有设置Nep5Proxy的所有设置接口和查询接口调用。
     * bindProxy, bindAsset
-    * getBindedProxy, getBindedAsset
+    * getBindedProxy, getBindedAsset, getLockAmount
 
 2. **invokeLock.js**
 
@@ -74,7 +74,30 @@ npm install @cityofzion/neon-js
     ```
 
 ### 发起单笔跨链转账
-为完成，待续
+都完成以上的设置，并可以成功查询到绑定的Proxy, Asset, LimitAmount以后。拥有跨链资产（Nep5）的用户，可以执行跨链转账，把资产从A链的地址、转移到B链的地址。详细的步骤如下：
+
+1. 在`invokeLock.js`中修改调用合约需要的参数，包括A和B两条链；此处需要用户的钱包签名，并且保证有相应数量的Nep5资产。
+
+2. 参数修改好之后，在terminal下运行js, 通过传入参数A或者B指定转账的source链是那一条。
+    ```
+    //从A链转账到目标链
+    node invokeLock.js A 
+
+    //成功以后的返回结果
+    TODO
+    ```
+3. 如果执行成功，可以通过执行`setup\getLockAmount.js` 来查询该资产在跨链中的流转额度，以及总共锁定的金额。记得提前修改好想要的参数
+    ```
+    //查询A链的锁定资产
+    cd setup
+    node getLockAmount.js A
+
+    //成功的返回结果
+    Chain ： [ 'A' ]
+    toChainID: 5
+    Circulated amount: 0.00074321
+    Total Locked Amount: 0.00074321
+    ```
 
 ### 自动发起跨链转账
 为完成，待续

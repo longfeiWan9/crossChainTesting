@@ -17,7 +17,7 @@ function main(chain){
   if(chain == "B"){
     getBindedProxy(
       url = "http://47.88.50.171:21332",
-      sourceProxy_Big = "94cca272725dfcab4eaa731615d10f9e58ad49c9",
+      sourceProxy_Big = "d577b781d18bdb577018c430d7cbce03a8965698",
       toChainID = 4
     )
   }

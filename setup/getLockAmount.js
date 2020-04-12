@@ -18,7 +18,7 @@ async function main(chain){
   if(chain == "B"){
     await getCrossedAmount(
       url = "http://47.88.50.171:21332",
-      sourceProxy_Big = "94cca272725dfcab4eaa731615d10f9e58ad49c9",
+      sourceProxy_Big = "d577b781d18bdb577018c430d7cbce03a8965698",
       sourceAsset_Big = "b09c34e301b131f4a9d4e6d0cd46ad8aaa767bd7",
       toChainID = 4
     )

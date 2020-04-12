@@ -13,7 +13,7 @@ function main(chain){
       wif = "L5YuEAPtQL1VwoPqzBpqEPHpoFNHtK2U5TnHpdGVFm2MtoSuyp3f",
       sourceProxy_Big = "0fb7010af58c2f9407915f182dc5430a0d131e4d",
       sourceAsset_Big = "96734f5efebd87986e1eb68c26b1526e297d91a5",
-      toChainID = 11,
+      toChainID = 5,
       targetAsset_Big = "b09c34e301b131f4a9d4e6d0cd46ad8aaa767bd7",
       newAssetLimit = 100000000,
       isTargetChainAsset = false
@@ -22,10 +22,10 @@ function main(chain){
   if(chain == "B"){
     bindNep5Proxy(
       url = "http://47.88.50.171:21332",
-      wif = "L5YuEAPtQL1VwoPqzBpqEPHpoFNHtK2U5TnHpdGVFm2MtoSuyp3f",
+      wif = "L5YuEAPtQL1VwoPq****NHtK2U5TnHpdGVFm2MtoSuyp3f",
       sourceProxy_Big = "94cca272725dfcab4eaa731615d10f9e58ad49c9",
       sourceAsset_Big = "b09c34e301b131f4a9d4e6d0cd46ad8aaa767bd7",
-      toChainID = 10,
+      toChainID = 4,
       targetAsset_Big = "96734f5efebd87986e1eb68c26b1526e297d91a5",
       newAssetLimit = 100000000,
       isTargetChainAsset = true
