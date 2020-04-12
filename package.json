@@ -1,0 +1,6 @@
+{
+  "lockfileVersion": 1,
+  "dependencies": {
+    "@cityofzion/neon-js": "^4.7.2"
+  }
+}
